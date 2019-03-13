@@ -68,7 +68,7 @@ module.exports = {
       options: {
         contentTypeName: "Post",
         feedOptions: {
-          title: "Bleda, a Gridsome blog starter",
+          title: "JasherIO, a personal website.",
           feed_url: "https://jasher.io/feed.xml",
           site_url: "https://jasher.io"
         },
