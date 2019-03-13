@@ -1,0 +1,48 @@
+{
+  "name": "jashy",
+  "private": true,
+  "description": "A blog starter for Gridsome.",
+  "keywords": [
+    "blog",
+    "gridsome",
+    "gridsome-starter",
+    "jamstack",
+    "markdown",
+    "ssg",
+    "static-site",
+    "tailwindcss",
+    "vue"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore",
+    "newpost": "node scripts/newPost.js",
+    "now-build": "yarn build"
+  },
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^1.1.0",
+    "@gridsome/plugin-google-analytics": "^0.1.0",
+    "@gridsome/plugin-sitemap": "^0.1.0",
+    "@gridsome/source-filesystem": "^0.3.0",
+    "@gridsome/transformer-remark": "^0.2.1",
+    "gridsome": "^0.5.4",
+    "gridsome-plugin-remark-shiki": "^0.2.0",
+    "gridsome-plugin-rss": "^1.1.0",
+    "medium-zoom": "^1.0.3",
+    "moment": "^2.24.0",
+    "postcss-import": "^12.0.1",
+    "postcss-nested": "^4.1.2",
+    "tailwindcss": "^0.7.4",
+    "tailwindcss-transitions": "^1.0.4",
+    "vue-parallaxy": "^1.1.1"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.15",
+    "@fortawesome/free-brands-svg-icons": "^5.7.2",
+    "@fortawesome/vue-fontawesome": "^0.1.5",
+    "typeface-montserrat": "^0.0.54",
+    "typeface-roboto": "^0.0.54"
+  }
+}

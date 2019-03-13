@@ -1,0 +1,269 @@
+[
+  {
+    "name": "Beyond ASTRONAUTS",
+    "link": "https://teambeyond.net/forum/tournaments/brackets/completed/",
+    "roles": [
+      "Seeder"
+    ],
+    "type": "Online",
+    "startDate": "June 30, 2018",
+    "endDate": ""
+  },
+  {
+    "name": "The Skirmish Invitational",
+    "link": "https://smash.gg/tournament/the-skirmish-invitational/events",
+    "roles": [
+      "Administrator"
+    ],
+    "type": "Online",
+    "startDate": "March 5, 2019",
+    "endDate": "-"
+  },
+  {
+    "name": "RLCS S7 EU Qualifiers",
+    "link": "https://smash.gg/tournament/rlcs-season-7-eu/events",
+    "roles": [
+      "Moderator"
+    ],
+    "type": "Online",
+    "startDate": "March 3, 2019",
+    "endDate": "March 17, 2019"
+  },
+  {
+    "name": "RLCS S7 NA Qualifiers",
+    "link": "https://smash.gg/tournament/rlcs-season-7-na/events",
+    "roles": [
+      "Moderator",
+      "Seeder"
+    ],
+    "type": "Online",
+    "startDate": "March 2, 2019",
+    "endDate": "March 16, 2019"
+  },
+  {
+    "name": "TEC2019",
+    "link": "https://smash.gg/tournament/tec2019-rocket-league/events",
+    "roles": [
+      "Administrator"
+    ],
+    "type": "LAN",
+    "startDate": "February 10, 2019",
+    "endDate": "-"
+  },
+  {
+    "name": "DreamHack Leipzig NA Qualifier",
+    "link": "https://smash.gg/tournament/na-online-qualifier-dreamhack-pro-circuit-leipzig-2019/events",
+    "roles": [
+      "Moderator",
+      "Seeder"
+    ],
+    "type": "Online",
+    "startDate": "January 19, 2019",
+    "endDate": "January 20, 2019"
+  },
+  {
+    "name": "DreamHack Leipzig EU Qualifier",
+    "link": "https://smash.gg/tournament/eu-online-qualifier-dreamhack-pro-circuit-leipzig-2019/events",
+    "roles": [
+      "Moderator"
+    ],
+    "type": "Online",
+    "startDate": "January 19, 2019",
+    "endDate": "January 20, 2019"
+  },
+  {
+    "name": "WSOE 4 EU Qualifier",
+    "link": "https://smash.gg/tournament/eu-open-qualifier-to-wsoe-4/events",
+    "roles": [
+      "Moderator"
+    ],
+    "type": "Online",
+    "startDate": "January 13, 2019",
+    "endDate": "-"
+  },
+  {
+    "name": "WSOE 4 NA Qualifier",
+    "link": "https://smash.gg/tournament/na-open-qualifier-to-wsoe-4/events",
+    "roles": [
+      "Moderator",
+      "Seeder"
+    ],
+    "type": "Online",
+    "startDate": "January 12, 2019",
+    "endDate": "-"
+  },
+  {
+    "name": "RLRS S6 NA Play-In",
+    "link": "https://smash.gg/tournament/rlcs-season-6-na/events/na-rival-series-play-in/brackets/298988/627437",
+    "roles": [
+      "Seeder"
+    ],
+    "type": "Online",
+    "startDate": "September 1, 2018",
+    "endDate": "-"
+  },
+  {
+    "name": "Super Swiss Rocket Royale NA",
+    "link": "https://smash.gg/tournament/super-swiss-rocket-royale-na/events",
+    "roles": [
+      "Moderator"
+    ],
+    "type": "Online",
+    "startDate": "August 28, 2018",
+    "endDate": "-"
+  },
+  {
+    "name": "Super Swiss Rocket Royale EU",
+    "link": "https://smash.gg/tournament/super-swiss-rocket-royale-eu/events",
+    "roles": [
+      "Moderator"
+    ],
+    "type": "Online",
+    "startDate": "August 28, 2018",
+    "endDate": "-"
+  },
+  {
+    "name": "RLRS S6 EU Qualifiers",
+    "link": "https://smash.gg/tournament/rlcs-season-6-eu/events",
+    "roles": [
+      "Moderator"
+    ],
+    "type": "Online",
+    "startDate": "August 12, 2018",
+    "endDate": "August 26, 2018"
+  },
+  {
+    "name": "RLRS S6 NA Qualifiers",
+    "link": "https://smash.gg/tournament/rlcs-season-6-na/events",
+    "roles": [
+      "Moderator",
+      "Seeder"
+    ],
+    "type": "Online",
+    "startDate": "August 11, 2018",
+    "endDate": "August 25, 2018"
+  },
+  {
+    "name": "RLRS S5 NA Play-In",
+    "link": "https://smash.gg/tournament/rlcs-season-5/events/na-rival-series-play-in/brackets/194289/485271",
+    "roles": [
+      "Seeder"
+    ],
+    "type": "Online",
+    "startDate": "March 10, 2018",
+    "endDate": "-"
+  },
+  {
+    "name": "RLRS S5 EU Qualifiers",
+    "link": "https://smash.gg/tournament/rlcs-season-5/events",
+    "roles": [
+      "Moderator"
+    ],
+    "type": "Online",
+    "startDate": "February 18, 2018",
+    "endDate": "March 4, 2018"
+  },
+  {
+    "name": "RLRS S5 NA Qualifiers",
+    "link": "https://smash.gg/tournament/rlcs-season-5/events",
+    "roles": [
+      "Moderator",
+      "Seeder"
+    ],
+    "type": "Online",
+    "startDate": "February 17, 2018",
+    "endDate": "March 3, 2018"
+  },
+  {
+    "name": "DreamHack Leipzig NA Qualifier",
+    "link": "https://smash.gg/tournament/dreamhack-open-leipzig-rocket-league/events/na-qualifier/overview",
+    "roles": [
+      "Seeder"
+    ],
+    "type": "Online",
+    "startDate": "January 13, 2018",
+    "endDate": "Janurary 14, 2018"
+  },
+  {
+    "name": "Ting Open",
+    "link": "https://liquipedia.net/rocketleague/Ting/Ting_Open",
+    "roles": [
+      "Moderator",
+      "Seeder"
+    ],
+    "type": "Online",
+    "startDate": "January 11, 2018",
+    "endDate": "February 4, 2018"
+  },
+  {
+    "name": "RLXL: The Open",
+    "link": "https://www.reddit.com/r/RocketLeague/comments/6ovynv/rlxl_presents_the_rlxl_open_in_support_of_doctors/",
+    "roles": [
+      "Administrator"
+    ],
+    "type": "Online",
+    "startDate": "August 4, 2017",
+    "endDate": "August 5, 2017"
+  },
+  {
+    "name": "DreamHack Atlanta",
+    "link": "https://smash.gg/tournament/dreamhack-atlanta-2017/events/dreamhack-atlanta-rocket-league-championship/overview",
+    "roles": [
+      "Moderator",
+      "Stage Admin"
+    ],
+    "type": "LAN",
+    "startDate": "July 21, 2017",
+    "endDate": "July 23, 2017"
+  },
+  {
+    "name": "Boostadelphia",
+    "link": "https://smash.gg/tournament/boostadelphia-lan-2v2-tournament/events",
+    "roles": [
+      "Moderator"
+    ],
+    "type": "LAN",
+    "startDate": "May 27, 2017",
+    "endDate": "-"
+  },
+  {
+    "name": "SPL: Tournament of Champions",
+    "link": "https://smash.gg/tournament/tournament-of-champions-2/details",
+    "roles": [
+      "Administrator"
+    ],
+    "type": "Online",
+    "startDate": "March 21, 2017",
+    "endDate": "-"
+  },
+  {
+    "name": "RLXL: Winter Classic",
+    "link": "https://www.reddit.com/r/RocketLeague/comments/5o6apy/the_winter_classic_benefiting_shalthis_on_jan_21st/",
+    "roles": [
+      "Administrator"
+    ],
+    "type": "Online",
+    "startDate": "January 21, 2017",
+    "endDate": "-"
+  },
+  {
+    "name": "RLXL: Extra Life",
+    "link": "https://www.reddit.com/r/RocketLeague/comments/58oa3v/rocket_league_extra_life_tournament_information/",
+    "roles": [
+      "Administrator"
+    ],
+    "type": "Online",
+    "startDate": "October 29, 2016",
+    "endDate": "-"
+  },
+  {
+    "name": "SPL: Weeklies (NA)",
+    "link": "https://battlefy.com/shift-pro-league",
+    "roles": [
+      "Administrator"
+    ],
+    "type": "Online",
+    "startDate": "June 17, 2016",
+    "endDate": "March 16, 2017"
+  }
+]
