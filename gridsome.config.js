@@ -31,16 +31,16 @@ module.exports = {
       options: {
         path: "content/posts/**/*.md",
         typeName: "Post",
-        route: "/:slug",
+        route: "/post/:slug",
         refs: {
           category: {
             typeName: "Category",
-            route: "/category/:id",
+            route: "post/category/:id",
             create: true
           },
           tags: {
             typeName: "Tag",
-            route: "/tag/:id",
+            route: "post/tag/:id",
             create: true
           },
           author: {

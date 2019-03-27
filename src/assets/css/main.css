@@ -8,6 +8,54 @@
 
 @import "components/markdown";
 
-@import "components/body";
-
 @import "tailwindcss/utilities";
+
+:root {
+  --primary: #7ed957;
+  --secondary: #32a657;
+  --tertiary: #6b32a6;
+
+  --black: #22292f;
+  --grey-darkest: #3d4852;
+  --grey-darker: #606f7b;
+  --grey-dark: #8795a1;
+  --grey: #b8c2cc;
+  --grey-light: #dae1e7;
+  --grey-lighter: #f1f5f8;
+  --grey-lightest: #f8fafc;
+  --white: #ffffff;
+
+  --font-display: Roboto, system-ui, BlinkMacSystemFont, -apple-system, Segoe UI;
+  --font-body: Montserrat, system-ui, BlinkMacSystemFont, -apple-system,
+    Segoe UI;
+}
+
+.theme {
+  @apply bg-default;
+}
+
+.light {
+  --color-bg-default: var(--grey-lightest);
+  --color-bg-invert: var(--black);
+  --color-text-primary: var(--secondary);
+  --color-text-secondary: var(--primary);
+  --color-text-default: var(--black);
+  --color-text-invert: var(--grey-lighter);
+
+  --color-text-mute-dark: var(--grey-darker);
+  --color-text-mute: var(--grey-dark);
+  --color-text-mute-light: var(--grey);
+}
+
+.dark {
+  --color-bg-default: var(--black);
+  --color-bg-invert: var(--grey-lighter);
+  --color-text-primary: var(--primary);
+  --color-text-secondary: var(--secondary);
+  --color-text-default: var(--grey-lighter);
+  --color-text-invert: var(--black);
+
+  --color-text-mute-dark: var(--grey-darker);
+  --color-text-mute: var(--grey-dark);
+  --color-text-mute-light: var(--grey);
+}

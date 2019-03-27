@@ -25,7 +25,6 @@
       </div>
       <ClientOnly>
         <parallax :speed-factor="speedFactor" :sectionHeight="80">
-          <!-- <img :src="post.cover" :alt="post.title"> -->
           <g-image :src="post.cover" :alt="post.title"/>
         </parallax>
       </ClientOnly>
@@ -33,7 +32,7 @@
     <div v-else class="pt-24">
       <div class="container max-w-lg mx-auto text-center px-6">
         <p class="text-grey-dark text-xs mb-2 uppercase">{{ post.timeToRead }} min read</p>
-        <h1 class="sm:text-4xl font-sans font-bold mb-2 text-black">{{ post.title }}</h1>
+        <h1 class="text-default sm:text-4xl font-sans font-bold mb-2">{{ post.title }}</h1>
         <p class="text-grey-dark">
           <span v-if="post.author">
             <g-link
@@ -48,8 +47,8 @@
     <nav class="absolute pin-t pin-l z-20 mt-6 ml-6">
       <g-link
         to="/"
-        :class="[post.cover && post.fullscreen ? 'text-white border-white' : 'text-grey-darkest border-grey-dark']"
-        class="hover:text-green hover:border-green text-sm border opacity-75 hover:opacity-100 rounded-full no-underline px-4 py-2 transition-opacity"
+        :class="[post.cover && post.fullscreen ? 'text-white border-white' : 'text-grey-dark border-grey-dark']"
+        class="hover:text-primary hover:border-primary text-sm border opacity-75 hover:opacity-100 rounded-full no-underline px-4 py-2 transition-opacity"
       >&larr; Home</g-link>
     </nav>
   </header>

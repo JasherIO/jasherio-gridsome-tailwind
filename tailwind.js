@@ -125,7 +125,24 @@ let colors = {
   pink: "#f66d9b",
   "pink-light": "#fa7ea8",
   "pink-lighter": "#ffbbca",
-  "pink-lightest": "#ffebef"
+  "pink-lightest": "#ffebef",
+
+  // TODO: Refactor
+  "bg-primary": "var(--primary)",
+  "bg-secondary": "var(--secondary)",
+  "bg-tertiary": "var(--tertiary)",
+  "bg-default": "var(--color-bg-default)",
+  "bg-invert": "var(--color-bg-invert)",
+
+  "text-primary": "var(--color-text-primary)",
+  "text-secondary": "var(--color-text-secondary)",
+  "text-tertiary": "var(--tertiary)",
+  "text-default": "var(--color-text-default)",
+  "text-invert": "var(--color-text-invert)",
+
+  "text-mute-dark": "var(--color-text-mute-dark)",
+  "text-mute": "var(--color-text-mute)",
+  "text-mute-light": "var(--color-text-mute-light)"
 };
 
 module.exports = {
@@ -224,8 +241,8 @@ module.exports = {
       "Courier New",
       "monospace"
     ],
-    headers: ["Roboto"],
-    body: ["Montserrat"]
+    display: "var(--font-display)",
+    body: "var(--font-body)"
   },
 
   /*
@@ -342,7 +359,31 @@ module.exports = {
   |
   */
 
-  textColors: colors,
+  textColors: {
+    // TODO: Refactor
+    green: colors["green"],
+    "green-darker": colors["green-darker"],
+
+    black: colors["black"],
+    "grey-darkest": colors["grey-darkest"],
+    "grey-darker": colors["grey-darker"],
+    "grey-dark": colors["grey-dark"],
+    grey: colors["grey"],
+    "grey-light": colors["grey-light"],
+    "grey-lighter": colors["grey-lighter"],
+    "grey-lightest": colors["grey-lightest"],
+    white: colors["white"],
+
+    primary: colors["text-primary"],
+    secondary: colors["text-secondary"],
+    tertiary: colors["text-tertiary"],
+    default: colors["text-default"],
+    invert: colors["text-invert"],
+
+    "mute-dark": colors["text-mute-dark"],
+    mute: colors["text-mute"],
+    "mute-light": colors["text-mute-light"]
+  },
 
   /*
   |-----------------------------------------------------------------------------
@@ -358,7 +399,26 @@ module.exports = {
   |
   */
 
-  backgroundColors: colors,
+  backgroundColors: {
+    // TODO: Refactor
+    "yellow-light": colors["yellow-light"],
+
+    black: colors["black"],
+    "grey-darkest": colors["grey-darkest"],
+    "grey-darker": colors["grey-darker"],
+    "grey-dark": colors["grey-dark"],
+    grey: colors["grey"],
+    "grey-light": colors["grey-light"],
+    "grey-lighter": colors["grey-lighter"],
+    "grey-lightest": colors["grey-lightest"],
+    white: colors["white"],
+
+    primary: colors["bg-primary"],
+    secondary: colors["bg-secondary"],
+    tertiary: colors["tertiary"],
+    default: colors["bg-default"],
+    invert: colors["bg-invert"]
+  },
 
   /*
   |-----------------------------------------------------------------------------
@@ -420,7 +480,17 @@ module.exports = {
   |
   */
 
-  borderColors: global.Object.assign({ default: colors["grey-light"] }, colors),
+  borderColors: global.Object.assign(
+    {
+      default: colors["text-default"],
+      mute: colors["text-mute"],
+      "mute-light": colors["text-mute-light"],
+      "mute-lighter": colors["text-mute-lighter"],
+      primary: colors["text-primary"],
+      secondary: colors["text-secondary"]
+    },
+    colors
+  ),
 
   /*
   |-----------------------------------------------------------------------------

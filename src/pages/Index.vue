@@ -1,17 +1,20 @@
 <template>
-  <Layout class="bg-white">
+  <Layout class>
     <main>
       <header>
         <div
-          class="container xl:max-w-xl mx-auto text-center px-6 py-10 md:py-32 border-b border-grey-lighter"
+          class="container xl:max-w-xl mx-auto text-center px-6 py-10 md:py-32 border-b border-mute-light"
         >
           <h1 class="text-4xl sm:text-5xl md:text-6xl font-sans font-bold mb-1">
-            <g-link to="/" class="text-black hover:text-green transition-color no-underline">Jasher</g-link>
+            <g-link
+              to="/"
+              class="text-default hover:text-primary transition-color no-underline"
+            >Jasher</g-link>
           </h1>
           <p class>
             <g-link
               to="/about"
-              class="text-grey-dark text-lg sm:text-3xl hover:text-green transition-color no-underline"
+              class="text-grey-dark text-lg sm:text-3xl hover:text-primary transition-color no-underline"
             >Software and Esports</g-link>
           </p>
         </div>
@@ -40,7 +43,7 @@ export default {
   metaInfo() {
     return {
       // title: this.config.siteName,
-      title: "Home",
+      title: "",
       meta: [
         { property: "og:type", content: "website" },
         { property: "og:title", content: this.config.siteName },

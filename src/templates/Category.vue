@@ -9,23 +9,13 @@
             class="text-grey-dark leading-normal"
           >{{ $page.category.belongsTo.totalCount }} posts in total</p>
           <h1
-            class="sm:text-4xl md:text-5xl font-sans font-bold mb-2 capitalize"
+            class="text-default sm:text-4xl md:text-5xl font-sans font-bold mb-2 capitalize"
           >{{ titleCase($page.category.title) }}</h1>
-          <!-- <svg
-            class="w-6 fill-current text-grey mx-auto mb-1"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 20 20"
-            role="img"
-            aria-labelledby="tagIcon"
-          >
-            <title id="tagIcon">Posts tagged</title>
-            <path d="M0 10V2l2-2h8l10 10-10 10L0 10zm4.5-4a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"></path>
-          </svg>-->
         </div>
         <nav class="absolute pin-t pin-l z-20 mt-6 ml-6">
           <g-link
             to="/"
-            class="text-sm border text-grey-darkest hover:text-green border-grey-dark hover:border-green rounded-full no-underline px-4 py-2 transition-opacity"
+            class="text-sm border text-mute hover:text-primary border-mute-lighter hover:border-primary rounded-full no-underline px-4 py-2 transition-opacity"
           >&larr; Home</g-link>
         </nav>
       </header>

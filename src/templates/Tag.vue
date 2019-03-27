@@ -5,14 +5,12 @@
         <div
           class="container flex flex-col-reverse xl:max-w-xl mx-auto text-center px-6 pt-24 pb-10 md:py-32 border-b border-grey-lighter"
         >
-          <p
-            class="text-grey-dark leading-normal"
-          >{{ $page.tag.belongsTo.totalCount }} posts in total</p>
+          <p class="text-mute leading-normal">{{ $page.tag.belongsTo.totalCount }} posts in total</p>
           <h1
-            class="sm:text-4xl md:text-5xl font-sans font-bold mb-2 capitalize"
+            class="text-default sm:text-4xl md:text-5xl font-sans font-bold mb-2 capitalize"
           >{{ titleCase($page.tag.title) }}</h1>
           <svg
-            class="w-6 fill-current text-grey mx-auto mb-1"
+            class="w-6 fill-current text-mute mx-auto mb-1"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 20 20"
             role="img"
@@ -25,7 +23,7 @@
         <nav class="absolute pin-t pin-l z-20 mt-6 ml-6">
           <g-link
             to="/"
-            class="text-sm border text-grey-darkest hover:text-green border-grey-dark hover:border-green rounded-full no-underline px-4 py-2 transition-opacity"
+            class="text-sm border text-grey-dark hover:text-primary border-grey-dark hover:border-primary rounded-full no-underline px-4 py-2 transition-opacity"
           >&larr; Home</g-link>
         </nav>
       </header>

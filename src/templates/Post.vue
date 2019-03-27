@@ -14,7 +14,7 @@
 
         <div
           :class="{'pb-10': $page.post.author || $page.post.tag}"
-          class="markdown text-lg leading-normal text-grey-darkest"
+          class="markdown text-lg leading-normal"
           v-html="$page.post.content"
         />
 
@@ -24,7 +24,7 @@
               v-for="tag in $page.post.tags"
               :key="tag.id"
               :to="`${tag.path}/`"
-              class="inline-block text-green hover:text-white hover:bg-green font-sans font-bold text-xs sm:text-sm border border-teal px-4 py-2 mr-4 mb-2 rounded-full no-underline transition-color transition-bg"
+              class="inline-block text-primary hover:text-invert hover:bg-primary font-sans font-bold text-xs sm:text-sm border border-teal px-4 py-2 mr-4 mb-2 rounded-full no-underline transition-color transition-bg"
             >
               <svg
                 class="w-3 fill-current align-middle mr-1"

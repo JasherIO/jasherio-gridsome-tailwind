@@ -1,37 +1,30 @@
 <template>
   <article>
     <div class="container mx-auto max-w-lg px-6">
-      <div class="bg-white py-8 sm:py-20 border-b border-grey-lighter">
+      <div class="py-8 sm:py-20 border-b border-mute-light">
         <header class="text-center mb-8">
           <time
             :datetime="post.datetime"
-            class="text-grey text-xs mb-2 uppercase"
+            class="text-mute text-xs mb-2 uppercase"
           >{{ formatPublishDate(post.datetime) }}</time>
-          <h2 class="sm:text-4xl font-sans mb-2">
+          <h2 class="sm:text-4xl mb-2">
             <g-link
               :to="`${post.path}/`"
-              class="text-black hover:text-green no-underline"
+              class="text-default hover:text-primary no-underline"
             >{{ post.title }}</g-link>
           </h2>
-          <p class="text-grey-dark leading-normal">
-            <!-- <span v-if="post.author">by
-              <g-link
-                :to="`${post.author.path}/`"
-                class="text-grey-darker hover:text-green transition-color capitalize no-underline border-b border-transparent hover:border-green transition-border-color"
-                v-if="post.author"
-              >{{ titleCase(post.author.title) }}</g-link>
-            </span>-->
-            <span v-if="post.category">in
+          <p class="text-mute text-sm leading-normal">
+            <span v-if="post.category">
+              in
               <g-link
                 :to="`${post.category.path}/`"
-                class="text-grey-darker hover:text-green transition-color capitalize no-underline border-b border-transparent hover:border-green transition-border-color"
+                class="text-mute text-base hover:text-primary transition-color capitalized no-underline"
               >{{ titleCase(post.category.title) }}</g-link>
             </span>
-            <!-- <span v-if="post.tags && post.tags.length > 0"> in <g-link :to="`${post.tags[0].path}/`" class="text-grey-darker hover:text-green transition-color capitalize no-underline border-b border-transparent hover:border-green transition-border-color">{{ titleCase(post.tags[0].title) }}</g-link></span> -->
           </p>
         </header>
         <p
-          class="leading-normal text-grey-darker text-lg px-2 sm:px-4 md:px-10"
+          class="font-body text-default leading-normal text-lg px-2 sm:px-4 md:px-10"
           v-html="excerpt(post, 280, ' ...')"
         ></p>
       </div>
